@@ -1,17 +1,42 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { MathJaxContext } from 'better-react-mathjax';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+import HomePage from './pages/homePage/homePage';
+
+const config = {
+  loader: { load: ["[tex]/html"] },
+  tex: {
+    packages: { "[+]": ["html"] },
+    inlineMath: [
+      ["$", "$"],
+      ["\\(", "\\)"]
+    ],
+    displayMath: [
+      ["$$", "$$"],
+      ["\\[", "\\]"]
+    ]
+  }
+};
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <MathJaxContext version={3} config={config}>
+      {/*<RouterProvider router={router} />*/}
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+         
+          <Route path='*' element={<h1>Page not found</h1>} />
+        </Routes>
+
+      </BrowserRouter>
+
+
+
+
+
+    </MathJaxContext>
   </React.StrictMode>
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
