@@ -35,7 +35,7 @@ const HomePage = props => {
           <StyledLink to="/26">Tydzień 26</StyledLink>
           <StyledLink to="/27">Tydzień 27</StyledLink>
           <StyledLink to="/28">Tydzień 28</StyledLink>
-          <StyledLink to="/29">Tydzień 129</StyledLink>
+          <StyledLink to="/29">Tydzień 29</StyledLink>
           <StyledLink to="/30">Tydzień 30</StyledLink>
           
       </Main>

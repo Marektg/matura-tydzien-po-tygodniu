@@ -1,0 +1,61 @@
+.mainFrame {
+    border: 2px solid black;
+    background-color: seashell;
+    width: 90%;
+    margin-left: 5%;
+    // padding: 10px;
+}
+
+.firstRow {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.mainPart {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+
+    & div {
+        border: 1px solid lightblue;
+        padding: 5px;
+    }
+
+    & span {
+        color: blue;
+    }
+}
+
+.lastRow {
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapFlex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.wrapFlex2 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    
+}
+
+.tab1 {
+    width: 90%;
+    margin-left: 5%;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+// .twoImageInRow {
+//     margin-left: 200px;
+//     & img {
+//          width: 300px;
+//          margin-right: 200px;
+//     }
+// }

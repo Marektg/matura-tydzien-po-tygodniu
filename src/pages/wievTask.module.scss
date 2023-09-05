@@ -1,0 +1,200 @@
+.powt {
+  display: flex;
+  width: 98%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px 15px;
+  font-size: 20px;
+  color: black;
+
+  & li:nth-child(odd) {
+    background: #fff;
+  }
+
+  & li:nth-child(even) {
+    background: khaki;
+  }
+
+  & li {
+    list-style: wisible;
+    list-style-position: inside;
+    list-style-type: decimal;
+    padding-bottom: 10px;
+    & button {
+      width: auto;
+        height: auto;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(210, 240, 241);
+        cursor: pointer;
+        font-weight: 700;
+        padding: 15px;
+       
+    }
+  }
+}
+  .powto {
+    display: flex;
+    width: 98%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 10px 15px;
+    font-size: 20px;
+    color: black;
+    list-style: none;
+    // font-weight: 700;
+    
+
+    & li:nth-child(odd) {
+      background: #fff;
+    }
+
+    & li:nth-child(even) {
+      background: khaki;
+    }
+
+    
+  }
+.numerZad{
+  font-weight: 700;
+}
+.twierdzenie {
+  font-size: 24px;
+  color: black;
+  font-style: italic;
+  margin: 5px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding: 10px;
+  padding-left: 15px;
+  border: gray solid 1px;
+  border-radius: 6px;
+  background-color: #e7e2e2;
+}
+.tresc {
+  font-size: 24px;
+  color: black;
+
+  & a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.trescpo {
+  font-size: 24px;
+  color: black;
+  // text-align: center;
+  padding-bottom: 10px;
+}
+
+.odp {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 20px;
+
+  & div {
+    margin: 15px;
+    border-left: 5px solid black;
+    padding-left: 5px;
+
+  }
+  & canvas {
+      margin: 15px;
+      border-left: 5px solid black;
+      padding-left: 5px;
+  
+    }
+}
+
+.well {
+  border: solid 1px blue;
+  padding: 10px;
+  background-color: aquamarine;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.wellpo {
+  border: solid 1px blue;
+  padding: 10px;
+  background-color: aquamarine;
+  text-align: center;
+  margin-bottom: 10px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.active {
+  background-color: green;
+}
+
+.podpowiedz {
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.canvasWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.plotWrapper {
+    display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: 20px;
+  padding-bottom: 10px;
+
+}
+
+.active {
+  background-color: green;
+}
+
+.buttonWrapper {
+  width: 90%;
+  margin-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  & button {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(210, 240, 241);
+    cursor: pointer;
+    font-weight: 700;
+  }
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.answer {
+  border: solid 1px blue;
+    padding: 10px;
+    background-color: aquamarine;
+}
+.hidden {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+// .js-plotly-plot{
+//   width: 50%;
+// }
