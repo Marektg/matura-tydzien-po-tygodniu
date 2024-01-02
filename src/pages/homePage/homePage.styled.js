@@ -24,7 +24,10 @@ background-color: #69B937;
   height: 100%;
   
 `;
-
+export const TaskList = styled.div`
+margin-left: 25%;
+width:70%;
+`;
 export const StyledLink = styled(NavLink)`
  width: 250px;
     height: 100px;

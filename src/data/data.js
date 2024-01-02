@@ -2,8 +2,8 @@ const zadania = [
     {
         "tydzien": "1",
         "zadanie": "1",
-        "tresc": "Przedstaw w postaci nieskracalnego ułamka zwykłego",
-        "podpunkty": ["\\(\\frac{\\left(1\\frac{5}{6}+1\\frac{19}{24}\\right)\\cdot \\frac {16}{29}}{7\\frac{1}{3}:2,2-2}\\)"]
+        "tresc": "Przedstaw w postaci nieskracalnego ułamka zwykłego \\(\\frac{\\left(1\\frac{5}{6}+1\\frac{19}{24}\\right)\\cdot \\frac {16}{29}}{7\\frac{1}{3}:2,2-2}\\)",
+        "podpunkty": []
     },
     {
         "tydzien": "1",
