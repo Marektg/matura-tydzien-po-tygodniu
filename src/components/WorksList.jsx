@@ -21,6 +21,8 @@ const WorksList = ({ typ }) => {
             return selectTask(typ);
         case "2":
             return selectTask(typ);
+        case "3":
+            return selectTask(typ);
         default:
             return (<div></div>)
     }

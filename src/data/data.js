@@ -324,6 +324,45 @@ const zadania = [
         "dzial": "cp1",
         "poddzial": "1",
     },
+    {
+        "tresc": "Wykonaj działania stosując wzory skróconego mnożenia",
+        "tydzien": "3",
+        "zadanie": "1",
+        "canvas": [],
+        "podpunkty": ["\\((2a+3b)^2\\)", "\\((3x-5y)^2\\)", "\\((2m-\\frac{1}{3})(2m+\\frac{1}{3})\\)", "\\(2x+1)^3\\)", "\\((\\sqrt{2}-y)^3\\)", "\\((2x-y)(4x^2+2xy+y^2)\\)", "\\((2x^2-3y)^2\\)", "\\((a^2+\\sqrt{2})^3\\)", "\\((m^2+1+m)(m^2+1-m)\\)"],
+        "wskazowka": null,
+        "ramka": null,
+        "extraRamka": null,
+        "tresc2": null,
+        "ramkapo": null,        
+    },
+    {
+        "tresc": "Doprowadź wyrażenie do najprostszej postaci",
+        "tydzien": "3",
+        "zadanie": "2",
+        "canvas": [],
+        "podpunkty": ["\\(-(2x+3)^2+7-(4x-5)(5++4x)\\)", "\\((3x-1)^3-2(x+1)(x+5)+7(4-3x)^2\\)", "\\(5-(x+2)^3+3(2x-5)^2\\)"],
+        "wskazowka": null,
+        "ramka": null,
+        "extraRamka": null,
+        "tresc2": null,
+        "ramkapo": null,
+    },
+    {
+        "tresc": "Napisz wzór dowolnej liczby całkowitej \\(c\\), która przy dzieleniu przez \\(4\\) daje resztę \\(1\\). Uzasadnij, że dzieląc przez \\(4\\) kwadrat liczby \\(c\\), również otrzymamy resztę równą \\(1\\)",
+        "tydzien": "3",
+        "zadanie": "3",
+        "canvas": [],
+        "podpunkty": [],
+        "wskazowka": null,
+        "ramka": null,
+        "extraRamka": null,
+        "tresc2": null,
+        "ramkapo": null,
+    },
+
+
+
 
 
     
